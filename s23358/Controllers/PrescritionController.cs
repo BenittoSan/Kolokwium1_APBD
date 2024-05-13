@@ -7,7 +7,7 @@ namespace s23358.Controllers;
 
 [Route("api/medicaments")]
 [ApiController]
-public class PrescritionController
+public class PrescritionController : ControllerBase
 {
     private IPrescriptionServices _prescriptionServices;
     
